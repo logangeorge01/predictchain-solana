@@ -28,6 +28,8 @@ cargo build-bpf --manifest-path=Cargo.toml --bpf-out-dir=dist/program
 solana program deploy dist/program/program.so
 ```
 
+### Update program id in client if there was no dist folder with saved keypair
+
 ### Todo:
 
 - create makefile or bash script to make this easier
