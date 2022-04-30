@@ -33,4 +33,4 @@ solana program deploy dist/program/program.so
 ### Todo:
 
 - create makefile or bash script to make this easier
-- split up lib.rs into entrypoint.rs, lib.rs, processor.rs
+- split up lib.rs into entrypoint.rs, lib.rs, processor.rs, etc. [DONE]
